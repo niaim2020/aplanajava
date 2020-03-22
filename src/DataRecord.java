@@ -8,7 +8,6 @@ public class DataRecord {
 
         try (FileWriter fw = new FileWriter("file2.txt")) {
             do {
-                System.out.print(": ");
                 str = br.readLine();
 
                 if(str.compareTo("стоп") == 0) break;
